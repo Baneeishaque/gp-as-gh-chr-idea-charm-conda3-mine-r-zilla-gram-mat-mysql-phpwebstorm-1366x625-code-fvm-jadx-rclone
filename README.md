@@ -16,6 +16,6 @@
 ### Base Image Repo. : [baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx](https://github.com/Baneeishaque/gp-zsh-as-gh-chrome-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx)   
 
 ## Additional Tools
-### &nbsp;&nbsp; - Rclone : 
+### &nbsp;&nbsp; - Rclone : v1.59.0-beta.6052.9e9ead2ac
 
 [//]: # "[![Gitpod ready-to-code](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/Baneeishaque/gp-as-gh-chr-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx-rclone)"
