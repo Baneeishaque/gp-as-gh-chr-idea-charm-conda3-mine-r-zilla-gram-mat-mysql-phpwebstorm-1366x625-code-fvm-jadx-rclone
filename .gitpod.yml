@@ -1,7 +1,7 @@
 image:
   file: .gitpod.Dockerfile
 
-# tasks:
+tasks:
   # - init: /usr/bin/start-vnc-session.sh
   # - command: zsh
   # - command: git clone --depth 1 "https://github.com/Baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2-pcmanfm-zsh-android-studio.git" android-studio-config && mkdir -p ~/.config/Google && ln -s `pwd`/android-studio-config/AndroidStudio4.1-config ~/.config/Google/AndroidStudio4.1 && mkdir -p ~/.local/share/Google && ln -s `pwd`/android-studio-config/AndroidStudio4.1-local ~/.local/share/Google/AndroidStudio4.1 && cd /usr/local/android-studio/bin/ && ./studio.sh
@@ -30,7 +30,7 @@ image:
   # - command: tilda
   # - command: jadx-gui
   # - command: java -Dsun.java2d.xrender=false -jar /home/gitpod/jd-gui-1.6.6.jar
-  # - command: rclone config
+  - init: cd /workspace && git clone --depth 1 https://github.com/Baneeishaque/configurations-private.git && ln configurations-private/rclone.conf rclone.conf && mv rclone.conf ~/.config/rclone/
 
 ports:
   - port: 5900
