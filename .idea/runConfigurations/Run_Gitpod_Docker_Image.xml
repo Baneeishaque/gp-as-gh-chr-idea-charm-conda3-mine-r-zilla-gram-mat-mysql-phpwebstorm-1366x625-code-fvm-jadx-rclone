@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Run Gitpod Docker Image" type="docker-deploy" factoryName="docker-image" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="baneeishaque/gp-as-gh-chr-idea-charm-conda3-mine-r-zilla-gram-mat-mysql-phpwebstorm-1366x625-code-fvm-jadx-rclone:latest" />
+        <option name="containerName" value="" />
+        <option name="commandLineOptions" value="--interactive --tty --entrypoint /bin/bash" />
+        <option name="showCommandPreview" value="true" />
+      </settings>
+    </deployment>
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="Build Gitpod Docker Image" run_configuration_type="docker-deploy" />
+    </method>
+  </configuration>
+</component>
